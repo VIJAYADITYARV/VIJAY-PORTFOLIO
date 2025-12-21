@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vijay Aditya R V | Projects</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Space+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="scroll-progress"></div>
+    <div class="bg-animation">
+        <div class="gradient-orb orb-1"></div>
+        <div class="gradient-orb orb-2"></div>
+        <div class="gradient-orb orb-3"></div>
+    </div>
+
+    <header class="main-header">
+        <div class="container header-content">
+            <div class="logo" onclick="window.location.href='index.html'">VA</div>
+            <div class="nav-wrapper">
+                <nav class="main-nav">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="projects.html" class="active">Projects</a>
+                    <a href="testimonials.html">Testimonials</a>
+                    <a href="contact.html" class="cta-link">Contact</a>
+                </nav>
+                <div class="theme-toggle" onclick="toggleTheme()">
+                    <div class="toggle-slider">🌙</div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="container">
+            
+            <!-- PROJECTS SECTION -->
+            <section id="projects" class="section" style="padding-top: 140px; min-height: 80vh;">
+                <div class="section-subheading-wrapper">
+                    <h3 class="section-heading reveal">Featured Projects</h3>
+                    <p class="section-subheading reveal">Selected projects showcasing my technical work</p>
+                </div>
+                <div class="projects-grid" id="projectsGrid"></div>
+            </section>
+
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2025 Vijay Aditya R V. Designed & built with modern web technologies.</p>
+        </div>
+    </footer>
+
+    <div id="backToTop">↑</div>
+    <script src="script.js"></script>
+</body>
+</html>

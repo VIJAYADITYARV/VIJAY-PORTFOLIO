@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vijay Aditya R V | About</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Space+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="scroll-progress"></div>
+    <div class="bg-animation">
+        <div class="gradient-orb orb-1"></div>
+        <div class="gradient-orb orb-2"></div>
+        <div class="gradient-orb orb-3"></div>
+    </div>
+
+    <header class="main-header">
+        <div class="container header-content">
+            <div class="logo" onclick="window.location.href='index.html'">VA</div>
+            <div class="nav-wrapper">
+                <nav class="main-nav">
+                    <a href="index.html">Home</a>
+                    <a href="about.html" class="active">About</a>
+                    <a href="projects.html">Projects</a>
+                    <a href="testimonials.html">Testimonials</a>
+                    <a href="contact.html" class="cta-link">Contact</a>
+                </nav>
+                <div class="theme-toggle" onclick="toggleTheme()">
+                    <div class="toggle-slider">🌙</div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="container">
+            
+            <!-- ABOUT -->
+            <section id="about" class="section" style="padding-top: 140px;">
+                <div class="section-subheading-wrapper">
+                    <h3 class="section-heading reveal">About Me</h3>
+                    <p class="section-subheading reveal">A brief look into my journey and interests</p>
+                </div>
+                
+                <div class="about-content reveal">
+                    <p>
+                        I am a Computer Science engineering student with a strong interest in building
+                        scalable, real-world software systems. My work spans full-stack web development,
+                        cloud computing, data analytics, and systems-level problem solving.
+                    </p>
+                    <p>
+                        <strong>My stack</strong> primarily includes the MERN ecosystem for modern web
+                        applications, Python for data and machine learning workflows, and cloud platforms
+                        for deployment and scalability. I value clean architecture, maintainable code,
+                        and performance-aware design.
+                    </p>
+                </div>
+
+                <div class="about-stats">
+                    <div class="stat-item reveal">
+                        <span class="icon">🚀</span>
+                        <span class="number">10+</span>
+                        <span class="label">Academic & Personal Projects</span>
+                    </div>
+                    <div class="stat-item reveal">
+                        <span class="icon">💼</span>
+                        <span class="number">2+</span>
+                        <span class="label">Years of Hands-on Learning</span>
+                    </div>
+                    <div class="stat-item reveal">
+                        <span class="icon">⭐</span>
+                        <span class="number">2</span>
+                        <span class="label">Industry Certifications</span>
+                    </div>
+                    <div class="stat-item reveal">
+                        <span class="icon">💯</span>
+                        <span class="number">100%</span>
+                        <span class="label">Curiosity & Commitment</span>
+                    </div>
+                </div>
+
+                <div class="about-content reveal" style="margin-top: 50px;">
+                    <h4>Areas of Interest</h4>
+                </div>
+
+                <div class="interest-tags reveal">
+                    <div class="interest-tag">
+                        <i class="fas fa-network-wired"></i>
+                        Distributed Systems & Cloud Architecture
+                    </div>
+                    <div class="interest-tag">
+                        <i class="fas fa-cloud"></i>
+                        Cloud-Native Application Development
+                    </div>
+                    <div class="interest-tag">
+                        <i class="fas fa-brain"></i>
+                        AI & Machine Learning Integration
+                    </div>
+                    <div class="interest-tag">
+                        <i class="fas fa-building"></i>
+                        System Design & Algorithmic Problem Solving
+                    </div>
+                </div>
+            </section>
+
+            <div class="wave-divider wave-bottom"></div>
+
+            <!-- SKILLS -->
+            <section id="skills" class="section">
+                <div class="section-subheading-wrapper">
+                    <h3 class="section-heading reveal">Technical Skills</h3>
+                    <p class="section-subheading reveal">Core technical areas I actively work across</p>
+                </div>
+                <div class="skills-categories" id="skillsContainer"></div>
+            </section>
+
+            <div class="wave-divider wave-top"></div>
+
+            <!-- LEARNING -->
+            <section id="learning" class="section">
+                <div class="section-subheading-wrapper">
+                    <h3 class="section-heading reveal">Currently Learning</h3>
+                    <p class="section-subheading reveal">Continuously strengthening my technical foundation</p>
+                </div>
+                <div class="learning-grid" id="learningGrid"></div>
+            </section>
+
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2025 Vijay Aditya R V. Designed & built with modern web technologies.</p>
+        </div>
+    </footer>
+
+    <div id="backToTop">↑</div>
+    <script src="script.js"></script>
+</body>
+</html>

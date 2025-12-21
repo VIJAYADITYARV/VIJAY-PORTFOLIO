@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vijay Aditya R V | Contact</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Space+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="scroll-progress"></div>
+    <div class="bg-animation">
+        <div class="gradient-orb orb-1"></div>
+        <div class="gradient-orb orb-2"></div>
+        <div class="gradient-orb orb-3"></div>
+    </div>
+
+    <header class="main-header">
+        <div class="container header-content">
+            <div class="logo" onclick="window.location.href='index.html'">VA</div>
+            <div class="nav-wrapper">
+                <nav class="main-nav">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="projects.html">Projects</a>
+                    <a href="testimonials.html">Testimonials</a>
+                    <a href="contact.html" class="active cta-link">Contact</a>
+                </nav>
+                <div class="theme-toggle" onclick="toggleTheme()">
+                    <div class="toggle-slider">🌙</div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="container">
+            
+            <!-- CONTACT -->
+            <section id="contact" class="section contact-section" style="padding-top: 140px;">
+                <div class="section-subheading-wrapper">
+                    <h3 class="section-heading reveal">Get In Touch</h3>
+                    <p class="section-subheading reveal">Open to internships, roles, and collaborations</p>
+                </div>
+
+                <div class="contact-container reveal">
+                    <div class="contact-info-left">
+                        <h3>Let's Connect</h3>
+                        <p>
+                            I'm always open to discussing internships, entry-level roles,
+                            academic collaborations, or innovative project ideas.
+                        </p>
+
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <div class="contact-item-text">
+                                    <span class="label">Email</span>
+                                    <span class="value">
+                                        <a href="mailto:VIJAYADITYARV@gmail.com">vijayadityarv@gmail.com</a>
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div class="contact-item-text">
+                                    <span class="label">Location</span>
+                                    <span class="value">Coimbatore, India</span>
+                                </div>
+                            </div>
+
+                            <div class="contact-item">
+                                <i class="fas fa-briefcase"></i>
+                                <div class="contact-item-text">
+                                    <span class="label">Status</span>
+                                    <span class="value" style="color: var(--color-accent);">
+                                        Open to Opportunities
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="social-links-contact">
+                            <a href="https://github.com/VIJAYADITYARV" target="_blank" class="social-btn">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                            <a href="https://in.linkedin.com/in/vijay-aditya-r-v" target="_blank" class="social-btn">
+                                <i class="fab fa-linkedin"></i> LinkedIn
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-container">
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" required placeholder="Your name">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" required placeholder="your.email@example.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" required placeholder="Tell me about your project..."></textarea>
+                            </div>
+                            <button type="submit" class="submit-btn">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2025 Vijay Aditya R V. Designed & built with modern web technologies.</p>
+        </div>
+    </footer>
+
+    <div id="backToTop">↑</div>
+    
+    <!-- EmailJS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
