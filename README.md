@@ -206,14 +206,15 @@ Replace `profile.jpg` with your own image (recommended: 800x800px or similar asp
 
 ### 🏠 Home
 - Hero section with introduction
-- Tech stack showcase
+
 - Quick links to social profiles
 
 ### 👨‍💻 About
 - Professional summary
 - Key statistics
 - Areas of interest
-- Currently learning
+- Tech stack showcase
+
 
 ### 🎓 Education
 - Academic qualifications
@@ -223,6 +224,7 @@ Replace `profile.jpg` with your own image (recommended: 800x800px or similar asp
 ### 💪 Skills
 - Technical skills categorized by domain
 - Learning progress tracker
+- Currently learning
 
 ### 🚀 Projects
 - 6 featured projects with:
@@ -230,10 +232,10 @@ Replace `profile.jpg` with your own image (recommended: 800x800px or similar asp
   - Detailed descriptions
   - Key metrics
   - Live demo & GitHub links
+- GitHub activity stats
 
 ### 💬 Testimonials
 - Peer reviews
-- GitHub activity stats
 
 ### 📧 Contact
 - Contact form with EmailJS
