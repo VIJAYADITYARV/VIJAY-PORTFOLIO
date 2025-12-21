@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vijay Aditya R V | Education</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Space+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="scroll-progress"></div>
+    <div class="bg-animation">
+        <div class="gradient-orb orb-1"></div>
+        <div class="gradient-orb orb-2"></div>
+        <div class="gradient-orb orb-3"></div>
+    </div>
+
+    <header class="main-header">
+        <div class="container header-content">
+            <div class="logo" onclick="window.location.href='index.html'">VA</div>
+            <div class="nav-wrapper">
+                <nav class="main-nav">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="education.html" class="active">Education</a>
+                    <a href="skills.html">Skills</a>
+                    <a href="projects.html">Projects</a>
+                    <a href="testimonials.html">Testimonials</a>
+                    <a href="contact.html" class="cta-link">Contact</a>
+                </nav>
+                <div class="theme-toggle" onclick="toggleTheme()">
+                    <div class="toggle-slider">🌙</div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="container">
+            
+            <!-- EDUCATION -->
+            <section id="education" class="section" style="padding-top: 140px;">
+                <div class="section-subheading-wrapper">
+                    <h3 class="section-heading reveal">Education</h3>
+                    <p class="section-subheading reveal">Academic background and technical foundation</p>
+                </div>
+                <div class="timeline">
+                    <div class="timeline-item reveal">
+                        <div class="education-card">
+                            <h4 class="degree-title">B.Tech in Computer Science and Engineering</h4>
+                            <p class="institution-info">Amrita Vishwa Vidyapeetham, Coimbatore • CGPA: 8.23 / 10</p>
+                            <p class="institution-info">2023 – Present</p>
+                            <p style="margin-top: 20px; font-weight: 600; color: var(--color-text);">Relevant Coursework</p>
+                            <ul class="coursework-list">
+                                <li>Data Structures & Algorithms</li>
+                                <li>Database Management Systems</li>
+                                <li>Operating Systems</li>
+                                <li>Web Technology</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="timeline-item reveal">
+                        <div class="education-card">
+                            <h4 class="degree-title">B.S. in Data Science and Applications</h4>
+                            <p class="institution-info">Indian Institute of Technology Madras • Foundation Completed with Distinction</p>
+                            <p class="institution-info">2023 – Present</p>
+                            <p style="margin-top: 20px; font-weight: 600; color: var(--color-text);">Coursework Highlights</p>
+                            <ul class="coursework-list">
+                                <li>Statistics & Probability</li>
+                                <li>Python Programming</li>
+                                <li>SQL & Database Systems</li>
+                                <li>Data Visualization & Analysis</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="wave-divider wave-bottom"></div>
+
+            <!-- CERTIFICATIONS -->
+            <section id="certifications" class="section">
+                <div class="section-subheading-wrapper">
+                    <h3 class="section-heading reveal">Certifications</h3>
+                    <p class="section-subheading reveal">Industry-recognized credentials</p>
+                </div>
+                <div class="timeline">
+                    <div class="timeline-item reveal">
+                        <div class="experience-card">
+                            <h4 class="job-title">AWS Certified Cloud Practitioner (CLF-C02)</h4>
+                            <p class="company-info">Amazon Web Services • June 2025</p>
+                            <ul class="responsibilities-list">
+                                <li>Demonstrated foundational knowledge of AWS global infrastructure, IAM, EC2, S3, pricing models, and the shared responsibility model.</li>
+                            </ul>
+                            <a href="https://www.credly.com/badges/0916c73d-2c1d-42ac-914f-62a690232ff2/public_url" target="_blank" class="cert-badge-link">
+                                <i class="fas fa-award"></i> View Certification Badge
+                            </a>
+                        </div>
+                    </div>
+                    <div class="timeline-item reveal">
+                        <div class="experience-card">
+                            <h4 class="job-title">AWS Certified AI Practitioner (AIF-C01)</h4>
+                            <p class="company-info">Amazon Web Services • June 2025</p>
+                            <ul class="responsibilities-list">
+                                <li>Validated understanding of machine learning concepts, generative AI, foundation models, and AWS AI services including SageMaker and Bedrock.</li>
+                            </ul>
+                            <a href="https://www.credly.com/badges/4b7af6f2-8497-42bf-abd3-86af5c86c840/public_url" target="_blank" class="cert-badge-link">
+                                <i class="fas fa-award"></i> View Certification Badge
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2025 Vijay Aditya R V. Designed & built with modern web technologies.</p>
+        </div>
+    </footer>
+
+    <div id="backToTop">↑</div>
+    <script src="script.js"></script>
+</body>
+</html>

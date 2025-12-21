@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vijay Aditya R V | Testimonials</title>
+    <title>Vijay Aditya R V | Skills</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Space+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
@@ -23,8 +23,10 @@
                 <nav class="main-nav">
                     <a href="index.html">Home</a>
                     <a href="about.html">About</a>
+                    <a href="education.html">Education</a>
+                    <a href="skills.html" class="active">Skills</a>
                     <a href="projects.html">Projects</a>
-                    <a href="testimonials.html" class="active">Testimonials</a>
+                    <a href="testimonials.html">Testimonials</a>
                     <a href="contact.html" class="cta-link">Contact</a>
                 </nav>
                 <div class="theme-toggle" onclick="toggleTheme()">
@@ -37,18 +39,25 @@
     <main class="main-content">
         <div class="container">
             
-            <!-- TESTIMONIALS SECTION -->
-            <section id="testimonials" class="section" style="padding-top: 140px;">
+            <!-- SKILLS -->
+            <section id="skills" class="section" style="padding-top: 140px;">
                 <div class="section-subheading-wrapper">
-                    <h3 class="section-heading reveal">Testimonials</h3>
-                    <p class="section-subheading reveal">Feedback from mentors and collaborators</p>
+                    <h3 class="section-heading reveal">Technical Skills</h3>
+                    <p class="section-subheading reveal">Core technical areas I actively work across</p>
                 </div>
-                <div class="testimonials-grid" id="testimonialsGrid"></div>
+                <div class="skills-categories" id="skillsContainer"></div>
             </section>
 
             <div class="wave-divider wave-bottom"></div>
 
-            
+            <!-- LEARNING -->
+            <section id="learning" class="section">
+                <div class="section-subheading-wrapper">
+                    <h3 class="section-heading reveal">Currently Learning</h3>
+                    <p class="section-subheading reveal">Continuously strengthening my technical foundation</p>
+                </div>
+                <div class="learning-grid" id="learningGrid"></div>
+            </section>
 
         </div>
     </main>
