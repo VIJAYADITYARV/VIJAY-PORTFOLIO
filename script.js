@@ -29,10 +29,8 @@ const techStackData = [
     { icon: '☁', name: 'AWS' },
     { icon: '🔥', name: 'Firebase' },
     { icon: '📦', name: 'Docker' },
-    { icon: '🤖', name: 'TensorFlow' },
     { icon: '⚙', name: 'Express.js' },
     { icon: '🌐', name: 'FastAPI' },
-    { icon: '🔧', name: 'Flask' },
     { icon: '🎯', name: 'Django' },
 ];
 
