@@ -297,18 +297,6 @@ You're free to use this template for your own portfolio! Just remember to:
 
 ---
 
-## 📸 Screenshots
-
-### Desktop View
-![Desktop Screenshot](screenshots/desktop.png)
-
-### Mobile View
-![Mobile Screenshot](screenshots/mobile.png)
-
-### Dark Mode
-![Dark Mode](screenshots/dark-mode.png)
-
----
 
 <div align="center">
 
